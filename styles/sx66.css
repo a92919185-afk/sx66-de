@@ -803,3 +803,23 @@ body {
 
   .hero-product-img { max-width: 364px; }
 }
+
+/* ============================================
+   ROUNDED BORDERS — all elements
+   ============================================ */
+
+/* Footer distributor notice — remove flat left edge */
+.footer-distributor {
+  border-radius: 10px;
+  border-left: 3px solid rgba(37,99,235,0.5);
+}
+
+/* Modal drawer — round all corners (centered on mobile) */
+.modal-drawer {
+  border-radius: 16px;
+}
+
+/* Country flags */
+#country-selector .country-flag img {
+  border-radius: 8px;
+}
